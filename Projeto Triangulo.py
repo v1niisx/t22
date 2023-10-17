@@ -16,7 +16,7 @@ if lp == True:
     print('É um Triangulo Válido!')
     if la == lb and la == lc:
         print('Este triangulo é Equilátero!')
-    elif la and lb == la:
+    elif la == lb or la == lc or lb == lc:
         print('Este triangulo é Isósceles')
     else:
         print('Este triangulo é Escaleno')
