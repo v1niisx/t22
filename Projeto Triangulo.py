@@ -23,3 +23,4 @@ if lp == True:
 else:
     print('Não é um Triangulo válido')
 
+
